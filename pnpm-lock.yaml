@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@auth/core':
+    specifier: ^0.19.0
+    version: 0.19.0
   '@auth/prisma-adapter':
     specifier: ^1.0.12
     version: 1.0.12(@prisma/client@5.7.1)
@@ -61,9 +64,6 @@ dependencies:
     version: 3.22.4
 
 devDependencies:
-  '@types/bcrypt':
-    specifier: ^5.0.2
-    version: 5.0.2
   '@types/bcryptjs':
     specifier: ^2.4.6
     version: 2.4.6
@@ -507,12 +507,6 @@ packages:
     dependencies:
       tslib: 2.6.2
     dev: false
-
-  /@types/bcrypt@5.0.2:
-    resolution: {integrity: sha512-6atioO8Y75fNcbmj0G7UjI9lXN2pQ/IGJ2FWT4a/btd0Lk9lQalHLKhkgKVZ3r+spnmWUKfbMi1GEe9wyHQfNQ==}
-    dependencies:
-      '@types/node': 20.10.6
-    dev: true
 
   /@types/bcryptjs@2.4.6:
     resolution: {integrity: sha512-9xlo6R2qDs5uixm0bcIqCeMCE6HiQsIyel9KQySStiyqNl2tnj2mP3DX1Nf56MD6KMenNNlBBsy3LJ7gUEQPXQ==}
